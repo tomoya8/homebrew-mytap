@@ -1,0 +1,30 @@
+diff --git a/Library/Formula/emacs.rb b/Library/Formula/emacs.rb
+index 3e0cd5b..d17afad 100644
+--- a/Library/Formula/emacs.rb
++++ b/Library/Formula/emacs.rb
+@@ -28,7 +28,8 @@ class Emacs < Formula
+   def patches
+     # Fullscreen patch works against 24.2; already included in HEAD
+     if build.include? "cocoa" and not build.head?
+-      "https://raw.github.com/gist/1746342/702dfe9e2dd79fddd536aa90d561efdeec2ba716"
++       { :p1 => "https://raw.github.com/gist/1746342/702dfe9e2dd79fddd536aa90d561efdeec2ba716",
++         :p0 => ["http://sourceforge.jp/projects/macemacsjp/svn/view/inline_patch/trunk/emacs-inline.patch?view=co&root=macemacsjp", DATA] }
+     end
+   end
+
+@@ -141,3 +142,15 @@ class Emacs < Formula
+     return s
+   end
+ end
++__END__
++--- src/nsterm.m.orig
+++++ src/nsterm.m
++@@ -4263,6 +4263,8 @@
++ 
++ - (void)changeInputMethod: (NSNotification *)notification
++ {
+++  if (!emacs_event)
+++    return;
++ 
++   struct frame *emacsframe = SELECTED_FRAME ();
++ 
