@@ -7,5 +7,5 @@ cask 'font-tanuki-magic' do
   homepage 'http://tanukifont.com/tanuki-permanent-marker/'
   license :oss
 
-  font 'TanukiMagic_1_12/TanukiMagic'
+  font 'TanukiMagic_1_12/TanukiMagic.ttf'
 end
