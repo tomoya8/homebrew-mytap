@@ -7,5 +7,5 @@ cask 'font-anzumoji' do
   homepage 'http://www8.plala.or.jp/p_dolce/'
   license :oss
 
-  font 'APJapanesefont.ttf'
+  font 'apjfont/APJapanesefont.ttf'
 end
