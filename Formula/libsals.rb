@@ -1,5 +1,3 @@
-require "formula"
-
 class Libsals < Formula
   homepage "http://olab.is.s.u-tokyo.ac.jp/archives/sals25/"
   url "http://olab.is.s.u-tokyo.ac.jp/archives/sals25/sals25.tar.gz"

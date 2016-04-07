@@ -1,5 +1,3 @@
-require 'formula'
-
 class ExactImage < Formula
   homepage 'http://www.exactcode.de/site/open_source/exactimage/'
   url 'http://dl.exactcode.de/oss/exact-image/exact-image-0.8.9.tar.bz2'
@@ -15,7 +13,7 @@ class ExactImage < Formula
 
   def patches
     # fixes exact-image to adhere to libPNG 1.4+ APIs
-    DATA
+    :DATA
   end
 
   def install
