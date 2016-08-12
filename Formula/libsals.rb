@@ -2,7 +2,7 @@ class Libsals < Formula
   homepage "http://olab.is.s.u-tokyo.ac.jp/archives/sals25/"
   url "http://olab.is.s.u-tokyo.ac.jp/archives/sals25/sals25.tar.gz"
   version "2.5"
-  sha1 "f6f6f2276d72b5f1230d00c8633f038b2f91c125"
+  sha256 "c4f57883a1e4dcc87af5b8c63aabed749154f200657e1e7fba9d7d5b008c3981"
 
   depends_on :fortran
 
