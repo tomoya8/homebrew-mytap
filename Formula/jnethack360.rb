@@ -5,9 +5,9 @@
 class Jnethack360 < Formula
   desc "Japanese localization of Nethack"
   homepage "https://ja.osdn.net/projects/jnethack/"
-  #url "https://ja.osdn.net/dl/jnethack/nethack-360-src.tgz"
-  url "file:///Users/kon/Downloads/nethack-360-src.tgz"
-  version "3.6.0-0.7"
+  url "https://ja.osdn.net/dl/jnethack/nethack-360-src.tgz"
+  #url "file:///Users/kon/Downloads/nethack-360-src.tgz"
+  version "3.6.0-0.8"
   sha256 "1ade698d8458b8d87a4721444cb73f178c74ed1b6fde537c12000f8edf2cb18a"
 
   depends_on "nkf" => :build
@@ -16,9 +16,9 @@ class Jnethack360 < Formula
   skip_clean "save"
 
   patch do
-    #url "https://ja.osdn.net/dl/jnethack/jnethack-3.6.0-0.7.diff.gz"
-    url "file:///Users/kon/Downloads/jnethack-3.6.0-0.7.diff.gz"
-    sha256 "bfd51e28551cb34ddc36e1dd0b32a9163bdab6a734ea6b9156d4b9cce3f07527"
+    url "https://ja.osdn.net/dl/jnethack/jnethack-3.6.0-0.8.diff.gz"
+    #url "file:///Users/kon/Downloads/jnethack-3.6.0-0.7.diff.gz"
+    sha256 "295aed66f2f0b03fa5b88207235e017629b8eceb3a20e6f968dea8e6baa4d6e9"
   end
 
   def install
