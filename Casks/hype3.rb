@@ -1,4 +1,4 @@
-cask 'hype' do
+cask 'hype3' do
   version '3.6.1'
   sha256 '5f8437a60234137fde4a1a22039f648175d26e29c858abc8ab6c75dde9e1e905'
 
