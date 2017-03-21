@@ -8,7 +8,7 @@ class Eblook < Formula
   depends_on "eb"
 
   def install
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--prefix=#{prefix}",
                           "--with-eb-conf=/usr/local/etc/eb.conf"
     system "make", "install"
   end
