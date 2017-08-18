@@ -12,9 +12,9 @@ class Jnethack < Formula
   version "3.4.3-0.11"
   sha256 "bb39c3d2a9ee2df4a0c8fdde708fbc63740853a7608d2f4c560b488124866fe4"
 
-  fails_with :llvm do
-    build 2334
-  end
+#  fails_with :llvm do
+#    build 2334
+#  end
 
   # needs X11 locale for i18n
   depends_on :x11
