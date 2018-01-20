@@ -4,7 +4,7 @@ class Libsals < Formula
   version "2.5"
   sha256 "c4f57883a1e4dcc87af5b8c63aabed749154f200657e1e7fba9d7d5b008c3981"
 
-  depends_on :fortran
+  #depends_on :fortran
 
   patch :DATA
 

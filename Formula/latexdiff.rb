@@ -4,7 +4,7 @@ class Latexdiff < Formula
   url "https://github.com/ftilmann/latexdiff/releases/download/1.2.0/latexdiff-1.2.0.tar.gz"
   sha256 "b139b7a289236b4daf1e94258253869be87b6c13a0dfecddf5259140f16c96cd"
 
-  depends_on :tex
+  #depends_on :tex
 
   def install
     bin.install %w[latexdiff latexdiff-fast latexdiff-so latexdiff-vc
