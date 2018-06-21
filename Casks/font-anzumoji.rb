@@ -5,7 +5,7 @@ cask 'font-anzumoji' do
   url 'http://www8.plala.or.jp/p_dolce/ap2/apjfont.zip'
   name 'あんずもじ'
   homepage 'http://www8.plala.or.jp/p_dolce/'
-  license :oss
+  # license :oss
 
   font 'apjfont/APJapanesefont.ttf'
 end

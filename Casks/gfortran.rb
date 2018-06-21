@@ -5,7 +5,7 @@ cask 'gfortran' do
   url "http://coudert.name/software/gfortran-#{version}.dmg"
   name 'Gfortran'
   homepage 'https://gcc.gnu.org/wiki/GFortran'
-  license :gpl
+  # license :gpl
 
   pkg "gfortran-#{version}/gfortran.pkg"
 

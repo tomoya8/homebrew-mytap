@@ -5,7 +5,7 @@ cask 'font-tanuki-magic' do
   url 'http://tanukifont.com/download/TanukiMagic_1_12.zip'
   name 'たぬき油性マジック'
   homepage 'http://tanukifont.com/tanuki-permanent-marker/'
-  license :oss
+  # license :oss
 
   font 'TanukiMagic_1_12/TanukiMagic.ttf'
 end
