@@ -17,7 +17,7 @@ class Jnethack < Formula
 #  end
 
   # needs X11 locale for i18n
-  #depends_on :x11
+  # depends_on :x11
 
   # Don't remove save folder
   skip_clean "libexec/save"
