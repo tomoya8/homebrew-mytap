@@ -5,7 +5,7 @@ class PdfjamExtras < Formula
   sha256 "4f5079483460046de1d2606c77a77aa620956230b58dbd647e0184f54ddb88ef"
   license "GPL-2.0"
 
-  depends_on :pdfjam
+  depends_on "pdfjam"
 
   def install
     bin.install Dir["bin/*"]
