@@ -7,7 +7,7 @@ class Pdfjam < Formula
 
   def install
     bin.install Dir["bin/*"]
-    man.install "man/pdfjam.1"
+    man.install Dir["man/*"]
     zsh_completion.install "shell-completion/zsh/_pdfjam"
   end
 
